@@ -2,7 +2,7 @@
 -- we don't need judgment_type at all. The type we're going to use
 -- here to represent types guarantees that what we would've done
 -- with judgment_type is handled. We also don't need the type_equality
--- function because Haskell can derive equality the correct equality.
+-- function because Haskell can derive the correct equality.
 
 data Type = Foo | Bar | Baz
           | Type :*: Type
